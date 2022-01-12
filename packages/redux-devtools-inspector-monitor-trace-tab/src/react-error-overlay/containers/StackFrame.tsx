@@ -37,7 +37,7 @@ const toggleStyle: CSSProperties = {
   width: '100%',
   textAlign: 'left',
   background: 'transparent',
-  fontFamily: 'Consolas, Menlo, monospace',
+  fontFamily: 'Monaco, Consolas, Menlo, monospace',
   fontSize: '1em',
   padding: '0px',
   lineHeight: '1.5',

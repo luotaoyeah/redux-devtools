@@ -20,7 +20,7 @@ const preStyle: CSSProperties = {
 };
 
 const codeStyle = {
-  fontFamily: 'Consolas, Menlo, monospace',
+  fontFamily: 'Monaco, Consolas, Menlo, monospace',
 };
 
 interface CodeBlockPropsType {

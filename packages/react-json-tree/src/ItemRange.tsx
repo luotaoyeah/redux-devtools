@@ -41,13 +41,6 @@ export default class ItemRange extends React.Component<Props, State> {
         {...styling('itemRange', this.state.expanded)}
         onClick={this.handleClick}
       >
-        <JSONArrow
-          nodeType={nodeType}
-          styling={styling}
-          expanded={false}
-          onClick={this.handleClick}
-          arrowStyle="double"
-        />
         {`${from} ... ${to}`}
       </div>
     );

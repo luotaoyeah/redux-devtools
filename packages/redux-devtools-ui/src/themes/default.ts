@@ -20,8 +20,8 @@ export interface Theme extends Base16Theme {
 
 export default (colors: Base16Theme) => ({
   ...colors,
-  fontFamily: "'Source Sans Pro', sans-serif",
-  codeFontFamily: "'Source Code Pro', monospace",
+  fontFamily: "'simsun', sans-serif",
+  codeFontFamily: "Monaco, monospace",
   inputHeight: 30,
   inputBorderWidth: 1,
   inputBorderRadius: 4,

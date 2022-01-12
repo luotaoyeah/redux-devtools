@@ -26,7 +26,7 @@ const styles: {
   elements: React.CSSProperties;
 } = {
   container: {
-    fontFamily: 'monaco, Consolas, Lucida Console, monospace',
+    fontFamily: 'Monaco, Consolas, Lucida Console, monospace',
     position: 'relative',
     overflowY: 'hidden',
     width: '100%',

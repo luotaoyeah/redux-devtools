@@ -90,6 +90,10 @@ const getSheetFromColorMap = (map: ColorMap) => ({
       opacity: '0.3',
     },
 
+    '& div': {
+      fontFamily: 'Monaco',
+    },
+
     '& div.gu-mirror': {
       position: 'fixed',
       opacity: '0.8',
@@ -222,6 +226,18 @@ const getSheetFromColorMap = (map: ColorMap) => ({
   actionPreviewContent: {
     flex: 1,
     'overflow-y': 'auto',
+    '& li': {
+      fontFamily: 'Monaco',
+    },
+    '& span': {
+      fontFamily: 'Monaco',
+    },
+    '& div': {
+      fontFamily: 'Monaco',
+    },
+    '& label': {
+      fontFamily: 'Monaco',
+    },
   },
 
   stateDiff: {

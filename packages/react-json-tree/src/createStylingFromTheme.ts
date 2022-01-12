@@ -64,7 +64,7 @@ const getDefaultThemeStyling = (theme: Base16Theme): StylingConfig => {
         WebkitUserSelect: 'text',
         MozUserSelect: 'text',
         wordWrap: 'break-word',
-        paddingLeft: (keyPath as unknown[]).length > 1 ? '2.125em' : '1.25em',
+        paddingLeft: (keyPath as unknown[]).length > 1 ? '12px' : '1.25em',
         textIndent: '-0.5em',
         wordBreak: 'break-all',
       },
@@ -77,6 +77,7 @@ const getDefaultThemeStyling = (theme: Base16Theme): StylingConfig => {
 
     valueLabel: {
       margin: '0 0.5em 0 0',
+      color: '#282828',
     },
 
     valueText: ({ style }, nodeType) => ({
@@ -94,6 +95,7 @@ const getDefaultThemeStyling = (theme: Base16Theme): StylingConfig => {
         paddingTop: expanded ? 0 : '0.25em',
         cursor: 'pointer',
         color: colors.LABEL_COLOR,
+        marginLeft: expanded ? 0 : '10.5px'
       },
     }),
 
@@ -142,7 +144,7 @@ const getDefaultThemeStyling = (theme: Base16Theme): StylingConfig => {
         position: 'relative',
         paddingTop: '0.25em',
         marginLeft: (keyPath as unknown[]).length > 1 ? '0.875em' : 0,
-        paddingLeft: !expandable ? '1.125em' : 0,
+        paddingLeft: 0,
       },
     }),
 
@@ -159,6 +161,7 @@ const getDefaultThemeStyling = (theme: Base16Theme): StylingConfig => {
         WebkitUserSelect: expandable ? 'inherit' : 'text',
         MozUserSelect: expandable ? 'inherit' : 'text',
         cursor: expandable ? 'pointer' : 'default',
+        color: expandable ? '#1155cc' : '#282828',
       },
     }),
 

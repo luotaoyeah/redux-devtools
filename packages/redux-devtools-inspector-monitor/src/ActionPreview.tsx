@@ -162,17 +162,6 @@ class ActionPreview<S, A extends Action<unknown>> extends Component<
     return (
       <span>
         <span {...styling('treeItemKey')}>{key}</span>
-        <span
-          {...styling('treeItemPin')}
-          onClick={() =>
-            onInspectPath([
-              ...inspectedPath.slice(0, inspectedPath.length - 1),
-              ...[key, ...rest].reverse(),
-            ])
-          }
-        >
-          {'(pin)'}
-        </span>
         {!expanded && ': '}
       </span>
     );

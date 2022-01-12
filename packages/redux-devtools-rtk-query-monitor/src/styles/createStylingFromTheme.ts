@@ -352,7 +352,7 @@ const getSheetFromColorMap = (map: ColorMap) => {
         padding: '5px 10px',
         'font-size': '1em',
         position: 'relative',
-        fontFamily: 'monaco, Consolas, "Lucida Console", monospace',
+        fontFamily: 'Monaco, Consolas, "Lucida Console", monospace',
 
         'background-color': map.BACKGROUND_COLOR,
         color: map.TEXT_COLOR,
