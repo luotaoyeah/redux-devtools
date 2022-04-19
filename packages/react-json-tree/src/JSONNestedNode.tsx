@@ -205,6 +205,14 @@ export default class JSONNestedNode extends React.Component<Props, State> {
       </li>
     ) : (
       <li {...styling('nestedNode', ...stylingArgs)}>
+        {expandable && (
+            <JSONArrow
+                styling={styling}
+                nodeType={nodeType}
+                expanded={expanded}
+                onClick={this.handleClick}
+            />
+        )}
         <label
           {...styling(['label', 'nestedNodeLabel'], ...stylingArgs)}
           onClick={this.handleClick}
